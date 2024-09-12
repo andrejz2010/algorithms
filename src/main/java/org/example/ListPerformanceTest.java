@@ -9,7 +9,7 @@ public class ListPerformanceTest {
 
     public static void testListPerformance(List<Integer> numbers) {
         Random random = new Random();
-        int numberOfOperations = 1_000_000;
+        int numberOfOperations = 100000;
 
         System.out.println("Testing performance for " + numbers.getClass().getSimpleName() + " with " + numberOfOperations + " operations.");
 
