@@ -1,0 +1,15 @@
+For Merge Sort for array of 150 elements:
+112819 NanoSeconds
+
+
+For Merge Sort for array of 6 elements:
+6517 Nano seconds
+
+For Selection Sort for array of 150 elements:
+154157 NanoSeconds
+
+
+For Selection Sort for array of 6 elements:
+2785 NanoSecond
+
+Conclusion if array is big better use merge sort if array is small better use selection sort.

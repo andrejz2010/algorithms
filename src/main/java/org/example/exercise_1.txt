@@ -1,0 +1,26 @@
+PART 1
+
+•           Option A has time complexity O(n+m) and memory complexity O(n^m) (n to the power of m)
+Option B has time complexity O(n*log(m)) and memory complexity O(n*m)
+Option C has time complexity O(n*m) and memory complexity O(n+m)
+
+
+
+
+Option A has faster time complexity in comparison to Option B and C which would allow application ti run faster
+
+But the memory complexity is  very high and really depends on how big M is. Otherwise there is a risk of running out of memory. So in most cases it wouldn’t be used
+
+
+
+
+
+Option B is slower in time complexity than A but faster than B which makes it
+
+The memory complexity is faster than A but slower than B.
+
+This option is provably the safest if we are afraid that we will run out of memory using option A
+
+
+
+Option C: has worst time complexity, but best memory complexity. I would only choose this option if we are very limited in memory our machine has
