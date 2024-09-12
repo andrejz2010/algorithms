@@ -39,7 +39,7 @@ public class ListPerformanceTest {
     }
 
     public static void main(String[] args) {
-        int initialSize = 1_000_000;
+        int initialSize = 100000;
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
         Random random = new Random();

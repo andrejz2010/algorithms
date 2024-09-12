@@ -13,3 +13,35 @@ For Selection Sort for array of 6 elements:
 2785 NanoSecond
 
 Conclusion if array is big better use merge sort if array is small better use selection sort.
+
+
+
+Part 3:
+ Array/List
+Pros:
+Simple and straightforward to implement.
+Allows for easy sequential access to items.
+Ideal for static or fixed-size inventories.
+Low memory overhead.
+Cons:
+Inefficient when frequent insertions or deletions are required (O(n) for inserts/deletes in worst case).
+Fixed size in arrays (in some languages), making dynamic resizing costly.
+Doesn't efficiently handle sorting or prioritization based on shelf space, product popularity, or expiration dates.
+2. HashMap/Dictionary
+Pros:
+Fast lookup, insertion, and deletion of items (average O(1) complexity).
+Ideal for handling product data with unique keys (e.g., product ID, SKU).
+Easy to associate metadata (like price, category, expiration date) with each product.
+Cons:
+No inherent order, which could be a problem if maintaining sorted shelves is important.
+Collisions can reduce efficiency if not handled properly.
+May not be ideal for operations like range queries (e.g., finding products by expiration date or priority).
+3. Priority Queue (Heap)
+Pros:
+Ideal for stacking based on priority criteria (e.g., expiration dates or product popularity).
+Efficient for extracting the highest or lowest priority item (O(log n) for insertion and deletion).
+Dynamically handles changes in product priority or sorting.
+Cons:
+Not suited for random access (you can only access the root, not arbitrary items).
+Needs to be paired with another structure to store additional product details (if needed).
+Higher memory overhead compared to simpler structures like lists.
